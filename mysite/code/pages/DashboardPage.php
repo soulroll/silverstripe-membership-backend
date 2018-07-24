@@ -1,8 +1,10 @@
 <?php
 
-use SilverStripe\CMS\Model\SiteTree;
+namespace Membership;
 
-class RegisterPage extends SiteTree
+use Page;
+
+class DashboardPage extends Page
 {
     private static $db = [];
 
